@@ -1,0 +1,33 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+//Постоянна используеммые блоки
+@import "Bem.scss";
+//Общие стили страниц
+@import "index.scss";
+//Шапка
+@import "heder.scss";
+//Подвал
+@import "footer.scss";
+//==================================
+@import "Specialists/Employee.scss";
+//=======================================
+@import "Specialists/Main-Employee.scss";
+//=================================
+@import "Specialists/Slaider.scss";
+//=================================
+@import "Services/price-list.scss";
+//=====================================
+@import "Services/Views-Massages.scss";
+//===============================
+@import "NewItems/nev-item.scss";
+//===============================
+@import "TheDetails/theDetails.scss";
+//===============================
+@import "Contacts/contacts.scss";
+//===============================
+@import "index/index.scss";
+
+
+
+
+

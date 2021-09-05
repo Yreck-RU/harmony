@@ -1,0 +1,98 @@
+
+
+.Views-Massages {
+	padding: 115px 0 100px 0;
+	position: relative;
+	overflow-x: hidden;
+	@media (max-width: 1640px){
+		padding: 80px 0 95px 0;
+	}
+	@media (max-width: 1024px){
+		padding: 45px 0 5px 0;
+	}
+	@media (max-width: 767px){
+		padding: 50px 0 45px 0;
+	}
+}
+.Views-Massages-line-img {
+	width: 100vw;
+	height: auto;
+	position: absolute;
+	top: 400px;
+	left: 0;
+	z-index: 0;
+}
+.Views-Massages-body {
+	font-size: 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+	@media (max-width: 767px){
+		flex-direction: column;
+	}
+}
+.Views-Massages-body-blok {
+	flex: 0 0 50%;
+	text-align: center;
+	font-size: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 130px;
+	@media (max-width: 1640px){
+		margin-bottom: 95px;
+	}
+	@media (max-width: 1024px){
+		margin-bottom: 55px;
+	}
+	@media (max-width: 767px){
+		margin-bottom: 50px;
+	}
+}
+.Views-Massages-body-blok-img {
+	height: 595px;
+	width: 535px;
+	margin-bottom: 55px;
+	@media (max-width: 1640px){
+		width: 380px;
+		height: 420px;
+		margin-bottom: 65px;
+	}
+	@media (max-width: 1024px){
+		width: 212px;
+		height: 237px;
+		margin-bottom: 22px;
+	}
+	@media (max-width: 767px){
+		width: 252px;
+		height: 258px;
+		margin-bottom: 16px;
+	}
+}
+.rounded-rectangle {}
+.Views-Massages-body-blok-title {
+	margin-bottom: 20px;
+	@media (max-width: 1640px){
+		margin-bottom: 14px;
+	}
+	@media (max-width: 1024px){
+		margin-bottom: 8px;
+	}
+	@media (max-width: 767px){
+		margin-bottom: 12px;
+	}
+}
+.Views-Massages-body-blok-text {
+	margin-bottom: 50px;
+	@media (max-width: 1640px){
+		margin-bottom: 30px;
+	}
+	@media (max-width: 1024px){
+		margin-bottom: 20px;
+	}
+}
+.Views-Massages-body-blok-button {
+	display: inline-block;
+}
+.heder-body-socialNetwork-button {}
+.heder-text-button {}

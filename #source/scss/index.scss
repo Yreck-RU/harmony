@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+//font-family: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+//font-family: 'Prosto One', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+//font-family: 'Roboto', sans-serif;
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?fh4k6g');
+  src:  url('../fonts/icomoon.eot?fh4k6g#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?fh4k6g') format('truetype'),
+    url('../fonts/icomoon.woff?fh4k6g') format('woff'),
+    url('../fonts/icomoon.svg?fh4k6g#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mail:before {
+  content: "\e900";
+}
+.icon-instagram:before {
+  content: "\e901";
+}
+
+.container {
+	max-width: 1590px;
+	margin: 0 auto;
+}
+@media (max-width: 1640px) {
+	.container {
+		max-width: 1120px;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 1200px) {
+	.container {
+		max-width: 970px;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 992px) {
+	.container {
+		max-width: none;
+		padding: 0 35px;
+	}
+}
+@media (max-width: 355px) {
+  .container {
+    max-width: none;
+    padding: 0 15px;
+  }
+}
+
+
+@media (min-width: 1024px){
+  a:hover{
+    color: #FF7A82;
+    transition: 0.5s;
+  }
+  .button-arrow:hover svg{
+    fill:#fff;
+    transition: 0.5s;
+  }
+  .button-arrow:hover .button-arrow-img{
+    background: #FF7A82;
+    border: 1px solid #FF7A82;
+    transition: 0.5s;
+  }
+  .heder-body-socialNetwork-link:hover {
+    color: #fff;
+    background: #FF7A82;
+    border: 0 solid #FF7A82;
+  }
+  .heder-body-socialNetwork-link:hover span{
+    color: #fff;
+  }
+  .heder-body-socialNetwork-button:hover {
+    background: #FF7A82;
+  }
+  .foter-bottom-contacts-reght-link-sotset:hover{
+    border: 1px solid #FF7A82;
+    background: #FF7A82;
+  }
+  .foter-bottom-contacts-reght-link-sotset:hover span{
+    color: #fff;
+  }
+  .index-serves-bottom-span:hover {
+    padding-left: 280px;
+    color: #BC3D2A;
+    @media (max-width: 1640px){
+      padding-left: 200px;
+    }
+    @media (max-width: 1024px){
+      padding-left: 110px;
+    }
+  }
+}
+
+
+
